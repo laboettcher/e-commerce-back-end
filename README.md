@@ -3,9 +3,7 @@
 
 ## Description
 
-```
 The starter code for this challenge contained a working Express.js API, but needed to be configured to use Sequelize in order to interact with the MySQL database. This allows for the application to act as the hypothetical back end for an e-commerce site. 
-```
 
 ## Tabe of Contents
 
@@ -19,7 +17,7 @@ The starter code for this challenge contained a working Express.js API, but need
 
 * [Mock-Up](#mock-up)
 
-* [DeployedApplication](#deployed-application)
+* [WalkthroughVideo](#walkthrough-video)
 
 * [License](#license)
 
@@ -51,27 +49,19 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
 
-```
 Start by cloning the starter code and make sure you have all necessary dependencies (npm install). Then, add parameters to each of the models and fill out the get, put, post, and delete routes. Make sure to sync sequelize to the database on server start in the server.js file (sequelize.sync) and to create a .env file containing the database name, your MySQL username, and your MySQL password (if you have one)!
-```
 
 ## Usage
 
-```
 Run mysql -u root (with -p at the end if you made a password) and type in source db/schema.sql. Then, exit MySQL and put 'npm run seed' into your terminal in order to seed the data into the models. Then, type in 'npm start' in order to start your server. Lastly, open the API get routes for Categories, Products, and Tags in Insomnia to make sure the data is being properly displayed as JSON and can return all or a single item from each. After that, test the API post, put, and delete routes in Insomnia to make sure the data is successfully created, updated, and deleted in the database (CRUD).
-```
 
 ## Mock-Up
 
-```
+![Untitled_ Jan 23, 2023 10_44 PM](https://user-images.githubusercontent.com/114205917/214230637-6eafbaae-c959-4a6e-94be-e7f27259dca6.gif)
 
-```
+## Walkthrough Video
 
-## Deployed Application
-
-```
-
-```
+View this [here](https://drive.google.com/file/d/1Ur9i7Gv2Ud5_C7jxthPB-c7duvweibki/view)
 
 ## License 
 
@@ -81,6 +71,14 @@ Run mysql -u root (with -p at the end if you made a password) and type in source
 
 ## References
 
-```
+* [ExpressJS](https://expressjs.com/en/guide/routing.html)
 
-```
+* [FreshDesk](https://cloudblue.freshdesk.com/support/solutions/articles/44001885918-rest-api-sent-through-insomnia-returns-500-for-some-requests)
+
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+* [Tabnine](https://www.tabnine.com/code/javascript/functions/express/Router/post)
+
+* [Tabnine2](https://www.tabnine.com/code/javascript/functions/express/Router/put)
+
+* [Tabnine3](https://www.tabnine.com/code/javascript/functions/express/Router/delete)
